@@ -2,9 +2,11 @@
 # Working with Files and Directories in Linux
 
 ## Introduction
+
 Linux offers powerful command-line tools for managing files and directories. Unlike Windows, where GUI tools like Explorer are commonly used, Linux allows efficient and fast file handling through terminal commands.
 
 ## Benefits of Terminal Usage
+
 - Faster access and editing of files
 - Interactive editing with or without editors like `vim` or `nano`
 - Regex support for selective file modifications
@@ -29,7 +31,8 @@ tree .
 ```
 
 **Output:**
-```
+
+```bash
 .
 ├── info.txt
 └── Storage
@@ -48,7 +51,8 @@ tree .
 ```
 
 **Output:**
-```
+
+```bash
 .
 ├── info.txt
 └── Storage
@@ -72,7 +76,8 @@ mv information.txt readme.txt Storage/
 ```
 
 **Updated tree:**
-```
+
+```bash
 .
 └── Storage
     ├── information.txt
@@ -91,7 +96,8 @@ cp Storage/readme.txt Storage/local/
 ```
 
 **Final tree:**
-```
+
+```bash
 .
 └── Storage
     ├── information.txt

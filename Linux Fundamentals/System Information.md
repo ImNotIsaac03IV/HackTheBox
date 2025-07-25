@@ -2,14 +2,17 @@
 # 🐧 System Information
 
 ## 🎯 Overview
+
 Using the Linux terminal effectively is crucial for administration, auditing, and security testing. Understanding commands related to system information, users, network, and hardware helps in both routine operations and vulnerability assessments.
 
 ---
 
 ## 🔐 Logging In via SSH
+
 SSH (Secure Shell) is a secure protocol for remotely accessing systems.
 
 **Command to connect:**
+
 ```bash
 ssh htb-student@[IP address]
 ```
@@ -102,6 +105,7 @@ env
 ---
 
 ## 📘 Tips for Learning
+
 - Use `man [command]` or `[command] --help` to understand more options.
 - Experiment in a safe, virtual environment like Hack The Box labs.
 - Focus on commands related to **users, kernel, processes,** and **network** — these are key areas in security assessments and privilege escalation.
@@ -109,6 +113,7 @@ env
 ---
 
 ## 🧪 Suggested Practice
+
 1. Connect to a machine via SSH.
 2. Try each command and note the output.
 3. Use `uname -r` and search for related exploits online.

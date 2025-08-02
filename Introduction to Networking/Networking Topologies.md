@@ -85,6 +85,7 @@ Topologies can be physical or logical and are categorized into 8 types:
 ## Summary
 
 Network topologies dictate how devices connect and communicate:
+
 - **Point-to-Point**: Simple and direct.
 - **Bus**: Shared medium, no central device.
 - **Star**: Centralized communication.
